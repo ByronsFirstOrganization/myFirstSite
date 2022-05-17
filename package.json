@@ -1,6 +1,7 @@
 {
   "devDependencies": {
-    "cypress": "^9.6.1"
+    "cypress": "^9.6.1",
+    "start-server-and-test": "^1.14.0"
   },
   "name": "myfirstsite",
   "description": "",
@@ -175,7 +176,4 @@
     "url": "https://github.com/Byronwww/myFirstSite/issues"
   },
   "homepage": "https://github.com/Byronwww/myFirstSite#readme"
-
-  
 }
-
