@@ -162,7 +162,8 @@
     "yauzl": "^2.10.0"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress:open": "cypress open"
   },
   "repository": {
     "type": "git",
@@ -174,4 +175,7 @@
     "url": "https://github.com/Byronwww/myFirstSite/issues"
   },
   "homepage": "https://github.com/Byronwww/myFirstSite#readme"
+
+  
 }
+
