@@ -12,9 +12,10 @@ describe('My First Passing Test', () => {
     })
   })
 
-  describe('My First Failing Test', () => {
+ /* describe('My First Failing Test', () => {
     it('Visit my first site', () => {
       cy.visit('https://main.dlke5sighv45.amplifyapp.com/')
       cy.contains(`My Only Paragraph`)
     })
   })
+  */
