@@ -7,7 +7,7 @@
 
 describe('My First Passing Test', () => {
     it('Visit my first site', () => {
-      cy.visit('https://main.dlke5sighv45.amplifyapp.com/')
+      cy.visit('/')
       cy.contains(`My First Paragraph`)
     })
   })
