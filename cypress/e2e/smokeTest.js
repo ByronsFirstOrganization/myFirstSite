@@ -20,12 +20,10 @@ describe('Login Page Loads', () => {
     })
   })
 
-
-
  /* describe('My First Failing Test', () => {
     it('Visit my first site', () => {
-      cy.visit('https://main.dlke5sighv45.amplifyapp.com/')
-      cy.contains(`My Only Paragraph`)
+      cy.visit('/')
+      cy.contains(`This test is meant to fail`)
     })
   })
   */
