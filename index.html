@@ -1,18 +1,20 @@
-<!DOCTYPE html>
-<head>
-    <link rel="stylesheet" href="css/myStyleSheet.css">
-    <title>My First Site - Index Page</title>
-</head>
-
-<body>
-    <h1>
-        Hello World
-    </h1>
-
-    <p>
-        My First Paragraph
-    </p>
-
-    <p>My Second Paragraph - Whi is my pipeline not auto triggering</p>
-    <script src="javascript/myJavaScript.js"></script>
-</body>
+<!DOCTYPE html>    
+<html>    
+<head>    
+    <title>My First Site - Login Form</title>    
+    <link rel="stylesheet" type="text/css" href="css/myStyleSheet.css">  
+    <script defer src="javascript/login.js"></script>
+</head>    
+<body>    
+    <h1>Login Page</h1><br>    
+    <div id="login-error-msg-holder">
+        <p id="login-error-msg">Invalid username and/or password</p>
+      </div>
+      
+      <form id="login-form">
+        <input type="text" name="username" id="username-field" class="login-form-field" placeholder="Username">
+        <input type="password" name="password" id="password-field" class="login-form-field" placeholder="Password">
+        <input type="submit" value="Login" id="login-form-submit">
+      </form>   
+</body>    
+</html>    
